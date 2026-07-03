@@ -274,6 +274,8 @@ const tips = {
 	"tip.closePanePicker.body": "Click Close Pane, then hover the split you mean — it turns red — and click to close exactly that pane.",
 	"tip.closePaneEof.title": "Close a pane fast",
 	"tip.closePaneEof.body": "Press Ctrl+D in a terminal pane to exit the shell and close the pane instantly.",
+	"tip.shuttingDownState.title": "Cards show shutting down",
+	"tip.shuttingDownState.body": "After you complete a task, its card greys out and locks while the session and worktree tear down.",
 } as const;
 
 export default tips;
